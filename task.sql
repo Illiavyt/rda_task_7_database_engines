@@ -1,8 +1,7 @@
-DROP DATABASE ShopDB;
-CREATE DATABASE ShopDB; 
-USE ShopDB; 
+DROP DATABASE IF EXISTS ShopDB;
+CREATE DATABASE IF NOT EXISTS ShopDB;
+USE ShopDB;
 
--- Create a table to store countries 
 CREATE TABLE Countries (
     ID INT,
     Name VARCHAR(50),
