@@ -22,7 +22,7 @@ CREATE TABLE ProductDescription (
     ProductID INT,
     CountryID INT,
     PRIMARY KEY (ID)
-) ENGINE=MyISAM;
+) ENGINE=InnoDB;
 
 CREATE TABLE Logs (
     ID INT AUTO_INCREMENT,
